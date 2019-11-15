@@ -1,4 +1,4 @@
-package beans;
+package de.cimdata.db_jsf.beans;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 
-import dao.DesignpatternDAO;
-import model.Designpattern;
+import de.cimdata.db_jsf.dao.DesignpatternDAO;
+import de.cimdata.db_jsf.model.Designpattern;
 
 @ManagedBean
 public class Bean {

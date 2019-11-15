@@ -1,4 +1,4 @@
-package model;
+package de.cimdata.db_jsf.model;
 
 public class Designpattern {
 	private int id;

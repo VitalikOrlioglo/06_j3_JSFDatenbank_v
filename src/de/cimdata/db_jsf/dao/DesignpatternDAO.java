@@ -1,14 +1,13 @@
-package dao;
+package de.cimdata.db_jsf.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import db.DBConnect;
-import model.Designpattern;
+import de.cimdata.db_jsf.db.DBConnect;
+import de.cimdata.db_jsf.model.Designpattern;
 
 public class DesignpatternDAO {
 	private DBConnect dbConnect = DBConnect.getIntance();

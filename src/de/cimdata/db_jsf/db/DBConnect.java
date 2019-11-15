@@ -1,8 +1,7 @@
-package db;
+package de.cimdata.db_jsf.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 /**
  * 
